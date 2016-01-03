@@ -54,7 +54,7 @@ The installer will ask for:
 * mail server credentials (to send mails)
 * the locale of the application
 * the URL of your default web client application to automatically set appropriate [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
-  headers, **set it to `http://locahost:9000` (the default URL of the built-in Grunt server) to follow this tutorial**
+  headers, **set it to `http://localhost:9000` (the default URL of the built-in Grunt server) to follow this tutorial**
 * a name and a description of the API that will be used in the generated documentation
 * a secret token (choose a long one) for cryptographic features
 
@@ -290,7 +290,7 @@ Now, browse `http://localhost:8000/people`:
 
 Pagination is also supported (and enabled) out of the box.
 
-It's time to post our first article. Run a POST request on `http://locahost:8000/blog_postings` with the following JSON document
+It's time to post our first article. Run a POST request on `http://localhost:8000/blog_postings` with the following JSON document
 as body:
 
 ```json
